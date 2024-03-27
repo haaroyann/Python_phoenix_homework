@@ -11,19 +11,25 @@
 #         if n%i==0:
 #             return False
 #     return True
+
 # def prime_list(n):
 #     ls=[]
 #     for i in range(2,n):
 #         if foo(i):  #es toxy chem haskanum
 #             ls.append(i)
 #     return ls
+
 # print(prime_list(55))
 
 # #Xndir N3  !!chem grel es xndiry!!
+
 # ls=[]
-# for i in range(1,7,2):  
+
+# for i in range(1,7,2): 
+#     ls2=[] 
 #     for j in range(3):
-#         ls.append(i)
+#         ls2.append(i+j)
+#     ls.append(ls2)
 # print(ls)        
 
 
@@ -55,5 +61,12 @@
 #     return(count)            
 # print(foo(a))      
 
+# #xndir N8
+# def foo(n):
+#     if n & n-1==0:
+#         print ("2-i astichan e")
+#     else:
+#         print ("2-i astichan che")    
 
+# foo(8)
 
